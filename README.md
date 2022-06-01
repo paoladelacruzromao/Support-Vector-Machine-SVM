@@ -22,6 +22,11 @@ O kernel RBF kernel é o mais empregado e popular. É a base das redes neurais R
 
 ![image](https://user-images.githubusercontent.com/87387315/171510248-d0e7ad43-43ad-4b79-b0da-357f4a26d15e.png)
 
+Exemplo SVM:
+
+![image](https://user-images.githubusercontent.com/87387315/171511478-af93009c-af48-4a07-ac75-9203d2f80141.png)
+
+
 ### Notas finais do algoritmo SVM
 • Treinamento. O treinamento de um SVM pode ser bastante lento devido ao método de otimização quadrática. Embora essa seja uma técnica com algoritmos bastante desenvolvidos, um grande volume de dados e muitos atributos podem consumir um grande tempo e capacidade computacional;
 
