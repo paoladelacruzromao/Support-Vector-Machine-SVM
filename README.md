@@ -22,9 +22,11 @@ O kernel RBF kernel é o mais empregado e popular. É a base das redes neurais R
 
 ![image](https://user-images.githubusercontent.com/87387315/171510248-d0e7ad43-43ad-4b79-b0da-357f4a26d15e.png)
 
-Notas finais do algoritmo SVM
+### Notas finais do algoritmo SVM
 • Treinamento. O treinamento de um SVM pode ser bastante lento devido ao método de otimização quadrática. Embora essa seja uma técnica com algoritmos bastante desenvolvidos, um grande volume de dados e muitos atributos podem consumir um grande tempo e capacidade computacional;
+
 • Solução única. Sendo um problema de otimização quadrática, a solução de um SVM é, diferentemente de uma rede neural, única (a otimização é sobre uma função convexa);
+
 • Classificador binário. Um SVM é essencialmente um classificador binário. Embora o processo possa ser adaptado para classificação múltipla ou mesmo para regressão, o processo é feito da combinação de múltiplas classificações binárias.
 
 
