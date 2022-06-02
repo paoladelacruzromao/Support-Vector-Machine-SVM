@@ -22,7 +22,7 @@ O kernel RBF kernel é o mais empregado e popular. É a base das redes neurais R
 
 ![image](https://user-images.githubusercontent.com/87387315/171510248-d0e7ad43-43ad-4b79-b0da-357f4a26d15e.png)
 
-Exemplo SVM: Na figura 1 os dados não som linearmente separaveis ja na figura 2 aplicando SVM , conseguimos separar os dados.
+Exemplo SVM: Na figura 1 os dados não som linearmente separaveis ja na figura 2 aplicando a função de kernel, conseguimos separar os dados. A função kernel simplemente eleva a dimensão 
 
 ![image](https://user-images.githubusercontent.com/87387315/171511478-af93009c-af48-4a07-ac75-9203d2f80141.png)
 
