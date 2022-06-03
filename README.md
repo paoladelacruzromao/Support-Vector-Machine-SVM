@@ -60,7 +60,9 @@ Podemos ver que a formula de regressaõ tem mais um parámetro que é o slack
 ![image](https://user-images.githubusercontent.com/87387315/171884417-decefbdc-0405-43e4-821d-5f86644c78ef.png)
 
 ### Parâmetro de Regulizacão C
-Esse parâmetro nos ajuda ao treinamento da margem do hiperplano rígida ou flexible 
-
+Esse parâmetro nos ajuda ao treinamento da margem do hiperplano rígida ou flexible :
+> C <Margem do hyperplano
+< C > Margem do hyperplano
+O que queremos é a maior margem posible, o importante buscar um modelo generalizado
 ![image](https://user-images.githubusercontent.com/87387315/171939753-b5ee15ff-b44b-44c5-b1e0-c2c1fba89ff0.png)
 
