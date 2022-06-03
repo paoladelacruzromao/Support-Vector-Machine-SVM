@@ -61,3 +61,6 @@ Podemos ver que a formula de regressaõ tem mais um parámetro que é o slack
 
 ### Parâmetro de Regulizacão C
 Esse parâmetro nos ajuda 
+
+![image](https://user-images.githubusercontent.com/87387315/171939753-b5ee15ff-b44b-44c5-b1e0-c2c1fba89ff0.png)
+
