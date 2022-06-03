@@ -35,3 +35,27 @@ Exemplo SVM: Na figura 1 os dados não som linearmente separaveis ja na figura 2
 • Classificador binário. Um SVM é essencialmente um classificador binário. Embora o processo possa ser adaptado para classificação múltipla ou mesmo para regressão, o processo é feito da combinação de múltiplas classificações binárias.
 
 
+### Margens Rigidas e Flexibles
+*** Margem Rigida ***
+Quando os dados ficam entre as margens rigidas (7 e 8), significa que os dados são quase linearmente separaveis, para esses casos não vale a pena aplicar o trueque do Kernel, esses dados tem uma cosinha a mais como por exemplo outliers que impede que eles sejam totalmente linearmente separaveis, em esse caso não podemos aplicar SVM de margens rígidas. As margens rígidas é só aplicable quando os dados são totalmente linearmente separaveis, osea você tem que gasrantir que seus dados não contem outliers para não classificar de maneira incorreta como o gráfico da direita.
+
+![image](https://user-images.githubusercontent.com/87387315/171882175-b673c696-ad6a-4efa-9ee6-192545e7875d.png)
+
+![image](https://user-images.githubusercontent.com/87387315/171880404-2b03ecdc-a8fe-45fc-b535-43d912a1b416.png)
+
+*** Margem Flexibles ***
+
+Na vida real é muito dificil achar dados linearmente separavéis, para isso precisamos achar uma função possa pular alguns valores discrepantes e poder classificar pontos linearmente separáveis.Para isso veamos a variavel slack, chamada de Xi
+
+![image](https://user-images.githubusercontent.com/87387315/171883486-17dea2af-d262-4a9d-910d-76ba387a8e6d.png)
+
+Podemos ver que a formula de regressaõ tem mais um parámetro que é o slack
+
+![image](https://user-images.githubusercontent.com/87387315/171883702-ff0535b4-6aa6-480d-b400-9b04d575e997.png)
+
+![image](https://user-images.githubusercontent.com/87387315/171883993-64157d78-684f-4bba-af98-6b58db795b4c.png)
+
+
+### Resumindo
+![image](https://user-images.githubusercontent.com/87387315/171884417-decefbdc-0405-43e4-821d-5f86644c78ef.png)
+
